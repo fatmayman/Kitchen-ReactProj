@@ -1,0 +1,79 @@
+.meal-detail-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7fdff;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.recipe-detail {
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.recipe-detail img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recipe-detail-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.recipe-detail-content h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #104E64;
+}
+
+.recipe-detail-content ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.recipe-detail-content p {
+  margin-top: 1.5rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.youtube-btn {
+  display: inline-block;
+  background-color: #d4183d;
+  color: white;
+  margin-top: 12px;
+  padding: 8px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.youtube-btn:hover {
+  background-color: #e63939;
+}
+
+.close-btn {
+  display: none;
+}
+
+.loading {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: #6b6b6b;
+}

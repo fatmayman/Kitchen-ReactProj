@@ -1,0 +1,31 @@
+.header {
+  background-color: #FFFFFF;
+  width: 90%;
+  margin: 20px auto 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 9px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #104E64;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: #6b6b6b;
+  margin-bottom: 2rem;
+}
+
+.category-selector {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+}

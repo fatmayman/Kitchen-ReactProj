@@ -1,0 +1,15 @@
+.category-dropdown {
+  padding: 6px 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.category-dropdown:focus {
+  outline: none;
+  border-color: #bcbcbc;
+}
