@@ -18,16 +18,3 @@ function App() {
 }
 
 export default App
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/meal/:id" element={<MealDetail />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
